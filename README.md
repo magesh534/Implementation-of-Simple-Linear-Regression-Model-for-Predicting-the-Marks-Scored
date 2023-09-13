@@ -76,8 +76,8 @@ print("RMSE = ",rmse)
 ![ml 5](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/39bae5bf-c00e-4c9e-ac98-65f1eb82cc24)
 ![ml 6](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/25592a50-268a-440d-9165-3988437a1b98)
 ![ml 7](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/2b387912-598d-4de4-9dc9-ec6196be95c2)
-![image](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/b646ff2a-bc7f-4bc4-b1a5-7b334e36eacb)
-![image](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/6738e978-438d-4efc-9de7-9fdf7f7d5878)
+![ml8](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/26c88334-e395-4d9e-888d-392f72fac961)
+![ml 9](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/b31bb641-bd7a-4ac5-ac35-770f29234c77)
 
 
 
