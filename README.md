@@ -8,17 +8,20 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the standard Libraries.
+1. Import the required libraries and read the dataframe.
 
-2.Set variables for assigning dataset values.
+   
+2.Assign hours to X and scores to Y.
 
-3.Import linear regression from sklearn.
 
-4.Assign the points for representing in the graph.
+3.Implement training set and test set of the dataframe.
 
-5.Predict the regression for marks by using the representation of the graph.
 
-6.Compare the graphs and hence we obtained the linear regression for the given datas
+4.Plot the required graph both for test data and training data.
+
+
+5.Find the values of MSE , MAE and RMSE.
+ 
 
 ## Program:
 ```
@@ -47,8 +50,6 @@ y_pred=regressor.predict(x_test)
 y_pred
 y_test
 
-y_pred
-
 #graph plot for training data
 plt.scatter(x_train,y_train,color="darkseagreen")
 plt.plot(x_train,regressor.predict(x_train),color="plum")
@@ -56,6 +57,9 @@ plt.title("Hours vs Scores (Training set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+
+y_pred
+
 
 #graph plot for test data
 plt.scatter(x_test,y_test,color="darkblue")
@@ -79,63 +83,114 @@ print("RMSE = ",rmse)
 1. df.head()
 
 
-![ml 1](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/24458f64-35f9-4347-832c-cbafe6523716)
+
+![Screenshot (25)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/6917a59e-d5b2-4cb8-ad9d-c89935d0db36)
+
+
+
 
 
 2. df.tail()
 
 
-![ml 2](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/ade86d1c-5c11-45b4-9e26-e8a001c33331)
 
 
-3.Array value of X
 
-
-![ml 3](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/b7ac3bd4-1260-4959-ab68-3cc22ea7eba4)
+![Screenshot (26) - Copy](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/684a65f5-5b24-4cde-9a97-5bb12621d8c8)
 
 
 
 
-4.Array value of Y
 
-
-![ml 4](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/bb6304e9-4ef3-4df1-99ca-98f6ec1de3e2)
-
-
-
-5. Values of Y prediction
-
-
-![ml 5](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/39bae5bf-c00e-4c9e-ac98-65f1eb82cc24)
+ 3. Array value of X
 
 
 
-6.Array values of Y test
 
 
 
-![ml 6](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/25592a50-268a-440d-9165-3988437a1b98)
+
+![Screenshot (27)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/a8cda932-d4e8-4ad6-97bf-09e36c0abebb)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4. Array value of Y
 
 
 
-7.Training Set Graph
+
+
+![Screenshot (28)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/2d2d83d8-efd7-4fa4-a835-e7ea5eb85728)
+
+ 
+ 
+ 
+ 
+ 5. Values of Y prediction
 
 
 
-![ml 7](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/2b387912-598d-4de4-9dc9-ec6196be95c2)
+
+![Screenshot (32)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/f0ce2721-6e60-4df7-9a8f-3b1380581db9)
 
 
 
-8.Test Set Graph
+
+ 6. Array values of Y test
 
 
-![ml8](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/26c88334-e395-4d9e-888d-392f72fac961)
 
 
 
-9.Values of MSE, MAE and RMSE
 
-![ml 9](https://github.com/magesh534/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135577936/b31bb641-bd7a-4ac5-ac35-770f29234c77)
+![Screenshot (35)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/819d7d3a-6d5e-4430-84b2-b9962d477946)
+
+
+
+
+
+
+7. Training Set Graph
+
+
+
+
+
+![Screenshot (30)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/fa83ea33-405f-449e-8680-62f611cfee5f)
+
+
+
+
+
+
+
+8. Test Set Graph
+
+
+
+
+
+![Screenshot (34)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/1e72f794-0a30-43a5-89b9-311570e46bfb)
+
+
+
+
+
+
+9. Values of MSE, MAE and RMSE
+
+
+
+
+
+
+![Screenshot (31)](https://github.com/MaheshMuthuL/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/135570619/877d66fe-ef68-43b6-a580-61880437a46d)
+
 
 
 
